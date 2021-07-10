@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+/* ----------------navigation------------------- */
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    /* text-align: left;
+    float: right; */
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-bar ul li a:hover{
+    color: white!important;
+}
+.navbar{
+    background: #087768;
+}
+
+
+/* -----------login section-------------- */
+.login-signup{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.login-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+.login-box .btn{
+    background-color: #087768;
+    color: white;
+}
+.login-box h2{
+    text-align: center;
+    color: #087768;
+}
+.login-box a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #087768;
+}
+@media (max-width:700px) {
+  .login-box{
+    width: 320px;
+  }
+}
+
+/* ----------footer------------ */
+.footer{
+    background: #087768;
+    padding: 12px;
+    color: white;
+}
